@@ -16,7 +16,7 @@ function configure(callback) {
 }
 
 // KLUDGE: allow local development without spamming google
-let useMocks = true
+let useMocks = true;
 
 mocks = {
   lsCommits: require('./fixtures/lsCommits.json').data

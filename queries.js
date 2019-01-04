@@ -42,27 +42,35 @@ let lsRepo = {
     }
 }
 
- lsCommits = {
+lsCommits = {
     query: `
-    query repo($name: String!, $owner: String!){
-        repository(name:$name, owner:$owner) {
-				ref(qualifiedName: "master") {
-					target {
-						... on Commit {
-							id
-							history(first: 5) {
-								pageInfo {
-									hasNextPage
-								}
-								edges {
-									node {
-										messageHeadline
-										oid
-										message
-										author {
-											name
-											email
-											date
+		query repo($name: String!, $owner: String!) {
+			repository(name: $name, owner: $owner) {
+				refs(last: 50, refPrefix: "refs/heads/") {
+					edges {
+						node {
+							name
+							target {
+								... on Commit {
+									history(first: 10) {
+										edges {
+											node {
+												oid
+												messageHeadline
+												messageBody
+												pushedDate
+												treeUrl
+												parents (first:50) {
+													totalCount
+													edges {
+														node{
+															... on Commit {
+																oid
+															}
+														}
+													}  
+												}
+											}
 										}
 									}
 								}
@@ -71,7 +79,7 @@ let lsRepo = {
 					}
 				}
 			}
-    } `,
+		} `,
     variables: {
         name: project,
         owner: owner

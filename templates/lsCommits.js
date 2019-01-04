@@ -4,13 +4,28 @@ module.exports = Handlebars.compile(`
 </div>
 
 <div class="container">
-{{#each data.repository.ref.target.history.edges}}
-  {{#with this.node as |n| }}
-<pre>
-{{ n.author.date }}: {{ n.messageHeadline }}
-</pre>
+{{#each data.repository.refs.edges}}
 
-  {{/with}}
+    <pre> {{ this.node.name }}
+    {{#each this.node.target.history.edges}}
+      {{#with this.node as |n|}}
+        {{ n.pushedDate }}
+          <a href="{{ n.treeUrl }}"> {{n.oid}} </a>
+          {{ n.messageHeadline }}
+
+      {{/with}}
+    {{/each}}
+    </pre>
+
 {{/each}}
 </div>
 `)
+/*
+  {{#each this.edges }}
+
+  <pre>
+  {{ n.author.date }}: {{ n.messageHeadline }}
+  </pre>
+    
+  {{/each}}
+  */
