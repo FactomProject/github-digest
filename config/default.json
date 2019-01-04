@@ -1,0 +1,13 @@
+{
+  "endpoint": "https://api.github.com/graphql",
+  "token": "f81dc31e32eefa6125574a258e9b74ddb65c3025",
+  "auth": {
+    "provider": "github",
+    "github": {
+      "oauth_uri": "https://github.com/login/oauth/authorize",
+      "redirect_uri": "http://127.0.0.1:8880",
+      "client_id": "XXXXXXXXXXXXXXXXXXXX"
+    }
+  }
+
+}
