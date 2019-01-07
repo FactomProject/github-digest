@@ -19,8 +19,7 @@
   "homepage": "https://github.com/FactomProject/github-digest#readme",
   "dependencies": {
     "browserify-handlebars": "^1.0.0",
-    "handlebars": "^4.0.12",
-    "request": "^2.88.0"
+    "handlebars": "^4.0.12"
   },
   "devDependencies": {
     "budo": "^11.5.0"
