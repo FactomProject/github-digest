@@ -12,7 +12,7 @@ module.exports = Handlebars.compile(`
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        {{#each queries}}
+        {{#each reports}}
         <li><a href="?q={{this}}">{{this}}</a></li>
         {{/each}}
       </ul>

@@ -1,25 +1,19 @@
-const q = require('./queries')
 const t = require('./templates')
+const nav = require('./templates/nav')
+const rpt = require('./report/monthly')
 const client = require('./client')
 
 $(document).ready(function () {
     configure(function (c) {
-        fetchData(
+        runReport(
             client.Connect(c.endpoint, c.token),
-            parseQuery(window.location.search)
+            getReportParams(c)
         )
     })
 })
 
 function configure(callback) {
     $.getJSON(Config.config, null, callback)
-}
-
-// KLUDGE: allow local development without spamming google
-let useMocks = true;
-
-mocks = {
-  lsCommits: require('./fixtures/lsCommits.json').data
 }
 
 function parseQuery(queryString) {
@@ -32,28 +26,38 @@ function parseQuery(queryString) {
     return query;
 }
 
-function fetchData(call, params) {
-    queries = []
-    data = {}
+// prepare start/end date range
+function getReportParams(config) {
+    params = parseQuery(window.location.search)
 
-    if (q[params.q]) {
-        if (useMocks == true){
-            render(params, mocks[params.q]);
-        } else {
-            call(q[params.q])
-            .then(res => render(params, res));
-        }
+    if (params.mm && params.yyyy) { // use provided yyyy & mm
+        params['start_date'] = new Date(params.yyyy, params.mm - 1, 1);
+        params['end_date'] = new Date(params.yyyy, params.mm, 0);
     } else {
-        $('#nav-menu').html(t.nav({queries: Object.keys(q)}))
+        now = new Date();
+        if (now.getDate() > 14) { // show current month when we are 2 weeks in
+            delta_start = 0
+            delta_end = 1
+        } else {
+            delta_start = -1
+            delta_end = 0
+        }
+        params['start_date'] = new Date(now.getFullYear(), now.getMonth() + delta_start, 1)
+        params['end_date'] = new Date(now.getFullYear(), now.getMonth() + delta_end, 0)
+    }
+
+    window.params = params
+    return params
+}
+
+function runReport(call, params) {
+    if (t[params.q]) { // if report exists
+        rpt.prepare(call, params, render);
+    } else {
+        $('#nav-menu').html(nav({ reports: Object.keys(t) }))
         $('#app-layout').html(`<div class="container"><p>select a report to run from the menu</p></div>`);
     }
 }
-
-function template(params, data) {
-  return t[params.q]({ params: params, data: data })
-}
-
 function render(params, data) {
-    $('#app-layout').html(template(params, data))
-    console.log(data)
+    $('#app-layout').html(rpt.template({ params: params, data: data }))
 }
