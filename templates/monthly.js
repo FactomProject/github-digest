@@ -1,6 +1,6 @@
 Handlebars.registerHelper('inDateRange', function(options) {
-  start = options.data.root.params.start_date
-  end = options.data.root.params.end_date
+  start = options.data.root.params.start_date;
+  end = options.data.root.params.end_date;
 
   firstValid = this.node.target.history.edges.find(function(e) {
     pushed = new Date(e.node.pushedDate);

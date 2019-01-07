@@ -3,7 +3,7 @@ let owner = "FactomProject"
 
 let getRepo = {
     query: `
-    query repo($name: String!, $owner: String!){
+    query($name: String!, $owner: String!){
         repository(name:$name, owner:$owner){
             createdAt      
         }
@@ -14,39 +14,11 @@ let getRepo = {
     }
 }
 
-let lsRepo = {
-    query: `
-    query repo($name: String!, $owner: String!){
-        repository(name:$name, owner:$owner) {
-            refs(first: 10, refPrefix: "refs/heads/") {
-            edges {
-                node {
-                name,
-                associatedPullRequests ( first: 10 ) {
-                    edges {
-                    node {
-                        title,
-                        updatedAt,
-                        publishedAt,
-                    }
-                    }
-                }
-                }
-            }
-          }
-        }
-    } `,
-    variables: {
-        name: project,
-        owner: owner
-    }
-}
-
 lsCommits = {
     query: `
-		query repo($name: String!, $owner: String!) {
+		query($name: String!, $owner: String!, $cursor: String!) {
 			repository(name: $name, owner: $owner) {
-				refs(last: 50, refPrefix: "refs/heads/") {
+				refs(last: 100, refPrefix: "refs/heads/", after: $cursor) {
 					edges {
 						node {
 							name
@@ -77,17 +49,17 @@ lsCommits = {
 							}
 						}
 					}
-				}
+                }
 			}
 		} `,
     variables: {
         name: project,
-        owner: owner
+        owner: owner,
+        cursor: ""
     }
 }
 
 module.exports =  {
     getRepo: getRepo,
-    lsRepo: lsRepo,
     lsCommits: lsCommits,
 }
