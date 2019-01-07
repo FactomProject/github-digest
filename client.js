@@ -1,4 +1,5 @@
-function connect(endpoint, token) {
+function connect(endpoint, token_b64) {
+    token = atob(token_b64)
 
     return function (query) {
         return fetch(endpoint, {

@@ -13,9 +13,9 @@ function prepare(call, params, callback) {
     data = {}
 
     if (useFixtures) {
-        data = mockData
+        callback(params, mockData)
     } else {
-        data["FIXME"] =  true
+        call(q.lsCommits).then( res => callback(params, {"lsCommits": res }) )
         /*
         FIXME: use params to gather and filter data
         Promise.all(
@@ -25,9 +25,6 @@ function prepare(call, params, callback) {
     }
 
     console.log(data)
-    if (callback) {
-        callback(params, data)
-    }
     return data
 }
 

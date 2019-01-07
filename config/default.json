@@ -1,6 +1,6 @@
 {
   "endpoint": "https://api.github.com/graphql",
-  "token": "f81dc31e32eefa6125574a258e9b74ddb65c3025",
+  "token": "OWM2OGZlMWI5ZTEyMzdjMGRiZTkyNTEzNTk3MzAxMDRiN2U2NmNhOQ==",
   "auth": {
     "provider": "github",
     "github": {
