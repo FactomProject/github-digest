@@ -4,7 +4,7 @@ const t = require('../templates')
 let useFixtures = false; // for local development w/o hammering github api
 
 mockData = {
-    lsCommits: require('../fixtures/lsCommits.json').data
+    branches: require('../fixtures/branches.json').data.repository.refs.edges
 }
 
 function prepare(call, params, callback) {
@@ -13,21 +13,32 @@ function prepare(call, params, callback) {
     data = {}
 
     stor = function (k, v) {
-        data[k] = v
+        if (!data[k]) {
+            data[k] = [];
+        }
+        data[k] = data[k].concat(v)
     }
 
     if (useFixtures) {
-        callback(params, mockData)
-    } else {
-        //FIXME: use params to gather and filter all data needed
-        // should support cursors
-        Promise.all([
-            call(q.lsCommits).then(res => stor('lsCommits', res))
-        ]).then( res => callback(params, data) )
+        return callback(params, mockData)
     }
 
-    console.log(data)
-    return data
+    queryBranches = function (cursor) {
+        return call(q.branches(cursor)).then(function (res) {
+            stor('branches', res.repository.refs.edges)
+            if (res.repository.refs.pageInfo.hasNextPage){
+                console.log(res.repository.refs.pageInfo)
+                return queryBranches(res.repository.refs.pageInfo.endCursor)
+            }
+        })
+    }
+
+    Promise.all([
+        queryBranches("").then( function() {
+            console.log("done")
+        })
+
+    ]).then( _ => callback(params, data))
 }
 
 module.exports = {

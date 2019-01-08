@@ -1,0 +1,1665 @@
+{
+    "data": {
+        "repository": {
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "name": "126",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "bump version",
+                                            "messageHeadline": "Merge pull request #252 from FactomProject/verbump",
+                                            "oid": "15482b9a77baee215215744a31f1489dd1c2e5c4",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "fdbc4a22964a90776fdc18df6b54bd4cb04401fd"
+                                                    },
+                                                    {
+                                                        "oid": "99e3212be9188c7e52b5d2e94e111e4f795ac9fd"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-12T12:30:28Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/15482b9a77baee215215744a31f1489dd1c2e5c4"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "bump version",
+                                            "oid": "99e3212be9188c7e52b5d2e94e111e4f795ac9fd",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "fdbc4a22964a90776fdc18df6b54bd4cb04401fd"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-11T23:42:43Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/99e3212be9188c7e52b5d2e94e111e4f795ac9fd"
+                                        },
+                                        {
+                                            "messageBody": "Save state",
+                                            "messageHeadline": "Merge pull request #241 from FactomProject/SaveState",
+                                            "oid": "fdbc4a22964a90776fdc18df6b54bd4cb04401fd",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "4e8e5d75c7791830d64edd9a8c10c2c04680a1e7"
+                                                    },
+                                                    {
+                                                        "oid": "3db17e8e954ded9498b6cb5889f442f8ad25bc59"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-09T21:05:19Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/fdbc4a22964a90776fdc18df6b54bd4cb04401fd"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Fixed some tests",
+                                            "oid": "3db17e8e954ded9498b6cb5889f442f8ad25bc59",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "2f694975a3bfc033c52a76a3d83a5152c8d107b8"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-08T22:05:36Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/3db17e8e954ded9498b6cb5889f442f8ad25bc59"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'develop' into SaveState",
+                                            "oid": "2f694975a3bfc033c52a76a3d83a5152c8d107b8",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "ab523e4d43c85d02cee5e7f090cbba1ccf2f53d4"
+                                                    },
+                                                    {
+                                                        "oid": "4e8e5d75c7791830d64edd9a8c10c2c04680a1e7"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-08T21:34:44Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/2f694975a3bfc033c52a76a3d83a5152c8d107b8"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "update version",
+                                            "oid": "4e8e5d75c7791830d64edd9a8c10c2c04680a1e7",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "09e8ef1ea8a986187a20144b40d13fc68870dc7b"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-08T20:33:49Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/4e8e5d75c7791830d64edd9a8c10c2c04680a1e7"
+                                        },
+                                        {
+                                            "messageBody": "Fd 107:  Fixes various issues of with DBStates, DBSigs with syncing",
+                                            "messageHeadline": "Merge pull request #250 from FactomProject/FD-107",
+                                            "oid": "09e8ef1ea8a986187a20144b40d13fc68870dc7b",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "e9739f29192343f382736add5fc330791d6c1d44"
+                                                    },
+                                                    {
+                                                        "oid": "9917878ddc093f1ba6118cc34e2c78b2c2d99b67"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-08T20:15:43Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/09e8ef1ea8a986187a20144b40d13fc68870dc7b"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'FD-107' of github.com:FactomProject/factomd into FD-107",
+                                            "oid": "9917878ddc093f1ba6118cc34e2c78b2c2d99b67",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "9850e7db2652c80afe154594d8b045da1ac05430"
+                                                    },
+                                                    {
+                                                        "oid": "3a439c12b04b26c84d9c57bb418317bf54fcc2e2"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-08T18:55:26Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/9917878ddc093f1ba6118cc34e2c78b2c2d99b67"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'develop' into FD-107",
+                                            "oid": "9850e7db2652c80afe154594d8b045da1ac05430",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "b5f5265ae155b77a953cc522961905fbcaa59f12"
+                                                    },
+                                                    {
+                                                        "oid": "e9739f29192343f382736add5fc330791d6c1d44"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/9850e7db2652c80afe154594d8b045da1ac05430"
+                                        },
+                                        {
+                                            "messageBody": "Fd 108",
+                                            "messageHeadline": "Merge pull request #249 from FactomProject/FD-108",
+                                            "oid": "e9739f29192343f382736add5fc330791d6c1d44",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "40a3c4516f3882f3bb0ad86f238a1e8c4ff44ca0"
+                                                    },
+                                                    {
+                                                        "oid": "7ae0870abf83bdf2af1a8a8576038a5425b2c2b2"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-05-08T17:59:01Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/e9739f29192343f382736add5fc330791d6c1d44"
+                                        }
+                                    ]
+                                },
+                                "oid": "15482b9a77baee215215744a31f1489dd1c2e5c4",
+                                "pushedDate": "2017-05-12T12:30:28Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "131",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'develop' into FD-166",
+                                            "oid": "60b5f57cd513d09d7cd4f97a1cfd5f9ebe23541d",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "c4c71adbc7f3cc7b72dbeaba3346e03387d99df5"
+                                                    },
+                                                    {
+                                                        "oid": "4b90f4740299bd9fa095af177cd1abae828687bf"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-07T21:36:35Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/60b5f57cd513d09d7cd4f97a1cfd5f9ebe23541d"
+                                        },
+                                        {
+                                            "messageBody": "update version",
+                                            "messageHeadline": "Merge pull request #286 from FactomProject/verbump",
+                                            "oid": "4b90f4740299bd9fa095af177cd1abae828687bf",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "807b31be6fa73b7c2216ba300ce5ef2110598bad"
+                                                    },
+                                                    {
+                                                        "oid": "48de2fd566c86d0bc0a92009b9de6322fd7e1414"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-07T21:04:46Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/4b90f4740299bd9fa095af177cd1abae828687bf"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "update version",
+                                            "oid": "48de2fd566c86d0bc0a92009b9de6322fd7e1414",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "807b31be6fa73b7c2216ba300ce5ef2110598bad"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-07T16:23:06Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/48de2fd566c86d0bc0a92009b9de6322fd7e1414"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "added fees to balance inputs and outputs on penfing transactions",
+                                            "oid": "c4c71adbc7f3cc7b72dbeaba3346e03387d99df5",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "807b31be6fa73b7c2216ba300ce5ef2110598bad"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-06T20:44:46Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/c4c71adbc7f3cc7b72dbeaba3346e03387d99df5"
+                                        },
+                                        {
+                                            "messageBody": "Change to api.  Added current-minute call with associated changes to \u2026",
+                                            "messageHeadline": "Merge pull request #280 from FactomProject/FD-165",
+                                            "oid": "807b31be6fa73b7c2216ba300ce5ef2110598bad",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "b797e5fd3b1bd8dd006a003cd60d61f355d7b4e3"
+                                                    },
+                                                    {
+                                                        "oid": "7cd75d34bac5c71c98b9b83ba2c10395bbde05e4"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-05T20:50:41Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/807b31be6fa73b7c2216ba300ce5ef2110598bad"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "updates isStalled test",
+                                            "oid": "7cd75d34bac5c71c98b9b83ba2c10395bbde05e4",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "511aa5a492cfa2bd1ae32799aafba120645c2b26"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-05T20:12:21Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/7cd75d34bac5c71c98b9b83ba2c10395bbde05e4"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "removed print statement",
+                                            "oid": "511aa5a492cfa2bd1ae32799aafba120645c2b26",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "fc800d72133ce01aaa58c92c519f37d8dc2566b3"
+                                                    },
+                                                    {
+                                                        "oid": "b797e5fd3b1bd8dd006a003cd60d61f355d7b4e3"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-05T19:21:45Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/511aa5a492cfa2bd1ae32799aafba120645c2b26"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "added directory block height to et minute",
+                                            "oid": "fc800d72133ce01aaa58c92c519f37d8dc2566b3",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "0d8375104e5d4697c18f0b7be61697dba7830733"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/fc800d72133ce01aaa58c92c519f37d8dc2566b3"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "reordering stall detection",
+                                            "oid": "0d8375104e5d4697c18f0b7be61697dba7830733",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "959b5cfa345d94f06a2f19513e4684074f9b0ebb"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-03T14:42:27Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/0d8375104e5d4697c18f0b7be61697dba7830733"
+                                        },
+                                        {
+                                            "messageBody": "Fd 148",
+                                            "messageHeadline": "Merge pull request #274 from FactomProject/FD-148",
+                                            "oid": "b797e5fd3b1bd8dd006a003cd60d61f355d7b4e3",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "85c980d0a8f1ef6027c7abf1d22c6492b56e86fd"
+                                                    },
+                                                    {
+                                                        "oid": "e98d90db8256553d7d72936ec63c30805ba562c2"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-07-01T00:06:16Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/b797e5fd3b1bd8dd006a003cd60d61f355d7b4e3"
+                                        }
+                                    ]
+                                },
+                                "oid": "60b5f57cd513d09d7cd4f97a1cfd5f9ebe23541d",
+                                "pushedDate": "2017-07-07T21:36:35Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "281-b",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Import (working) FactomProject clone of logrustash",
+                                            "oid": "f4b58339b2157a5f141d1eb254d4beb8b21f458a",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "7a6a0eac67fa0f31cf25d4f506ad65a8e2569881"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-09-27T18:11:15Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/f4b58339b2157a5f141d1eb254d4beb8b21f458a"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "De-camelcase Logstash",
+                                            "oid": "7a6a0eac67fa0f31cf25d4f506ad65a8e2569881",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "6d95abc53cfc5f35baec2205a47c4c7e22345387"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/7a6a0eac67fa0f31cf25d4f506ad65a8e2569881"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Change ProcessRecentFERChainEntries Info-log back to Debug",
+                                            "oid": "6d95abc53cfc5f35baec2205a47c4c7e22345387",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "10fe29bca665b56fb044d4b898c1c48ee0497904"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/6d95abc53cfc5f35baec2205a47c4c7e22345387"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Add asynchronous+reconnectable logrustash hook",
+                                            "oid": "10fe29bca665b56fb044d4b898c1c48ee0497904",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "2325b826bc928abb995cf577fc38a433411bf03e"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-09-27T17:45:15Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/10fe29bca665b56fb044d4b898c1c48ee0497904"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "ElasticSearch command-line parameters",
+                                            "oid": "2325b826bc928abb995cf577fc38a433411bf03e",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "6584cc124430fd2e0e1a81abdaaeaff288f91299"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-09-21T17:26:02Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/2325b826bc928abb995cf577fc38a433411bf03e"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Add hard-coded ElasticSearch hook for Logrus",
+                                            "oid": "6584cc124430fd2e0e1a81abdaaeaff288f91299",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "78642adb6b505650b11bdc976ea9d81130355ac8"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/6584cc124430fd2e0e1a81abdaaeaff288f91299"
+                                        },
+                                        {
+                                            "messageBody": "Change 'paramaters' to 'parameters'",
+                                            "messageHeadline": "Merge pull request #335 from FactomProject/FD-254",
+                                            "oid": "78642adb6b505650b11bdc976ea9d81130355ac8",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "0af94102cc56d7ea817bf51810072672edd9b42b"
+                                                    },
+                                                    {
+                                                        "oid": "5ef35327040457a7ef5a58c6f0a7635de742fc11"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-09-12T21:19:53Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/78642adb6b505650b11bdc976ea9d81130355ac8"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Change 'paramaters' to 'parameters'",
+                                            "oid": "5ef35327040457a7ef5a58c6f0a7635de742fc11",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "0af94102cc56d7ea817bf51810072672edd9b42b"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-09-12T13:40:27Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/5ef35327040457a7ef5a58c6f0a7635de742fc11"
+                                        },
+                                        {
+                                            "messageBody": "bump version",
+                                            "messageHeadline": "Merge pull request #333 from FactomProject/verbump",
+                                            "oid": "0af94102cc56d7ea817bf51810072672edd9b42b",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "780a3278b76e7d4e0f3d7facd3b71234de84f5ea"
+                                                    },
+                                                    {
+                                                        "oid": "475c2fd5e0465fead25d9758f853e21ff41126c5"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-09-08T23:19:13Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/0af94102cc56d7ea817bf51810072672edd9b42b"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "bump version",
+                                            "oid": "475c2fd5e0465fead25d9758f853e21ff41126c5",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "780a3278b76e7d4e0f3d7facd3b71234de84f5ea"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-09-08T23:07:42Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/475c2fd5e0465fead25d9758f853e21ff41126c5"
+                                        }
+                                    ]
+                                },
+                                "oid": "f4b58339b2157a5f141d1eb254d4beb8b21f458a",
+                                "pushedDate": "2017-09-27T18:11:15Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "281-c",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Add PL logging details",
+                                            "oid": "a860298a5d2c582b4a45523fcfbc5042245f244f",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "b667e7d0f6c93683d2570d6471480503db8d7949"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-03T17:24:28Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/a860298a5d2c582b4a45523fcfbc5042245f244f"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Fix log-related nil pointer issues",
+                                            "oid": "b667e7d0f6c93683d2570d6471480503db8d7949",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "c0f634cd8eb35fd36ef5c72c5d0583fb2751fe41"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-02T19:52:54Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/b667e7d0f6c93683d2570d6471480503db8d7949"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Improve logging further (standardize)",
+                                            "oid": "c0f634cd8eb35fd36ef5c72c5d0583fb2751fe41",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "a763fd22cff9262943357fa222031bf58d57ff57"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/c0f634cd8eb35fd36ef5c72c5d0583fb2751fe41"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Add log fields to Send",
+                                            "oid": "a763fd22cff9262943357fa222031bf58d57ff57",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "eaaac986a3efa1c69b6cb015f3d8df0c3745e76a"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-02T18:14:10Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/a763fd22cff9262943357fa222031bf58d57ff57"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Slight logging improvements, cont'd",
+                                            "oid": "eaaac986a3efa1c69b6cb015f3d8df0c3745e76a",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "dbad04bede4e36d051b72fac48bff9826c9402d3"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-02T17:37:10Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/eaaac986a3efa1c69b6cb015f3d8df0c3745e76a"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Improve logging (full hashes)",
+                                            "oid": "dbad04bede4e36d051b72fac48bff9826c9402d3",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "07411b33b4a2dac62e9f89c95d8fc45a27a227b8"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/dbad04bede4e36d051b72fac48bff9826c9402d3"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Log faulting information as warnings",
+                                            "oid": "07411b33b4a2dac62e9f89c95d8fc45a27a227b8",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "6d49db17b9a21d463cb62d6a2ec87eece7f9b732"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-02T00:13:30Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/07411b33b4a2dac62e9f89c95d8fc45a27a227b8"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Add more ProcessList logging info",
+                                            "oid": "6d49db17b9a21d463cb62d6a2ec87eece7f9b732",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "4f151617dbb3b664d1006a0c102c8cbb02b6f04f"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-09-29T19:50:22Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/6d49db17b9a21d463cb62d6a2ec87eece7f9b732"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Generate EOM only output on Debug mode",
+                                            "oid": "4f151617dbb3b664d1006a0c102c8cbb02b6f04f",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "6ffa8bb21f69cf7def45ca9c333e25f8eb80bb84"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/4f151617dbb3b664d1006a0c102c8cbb02b6f04f"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Use logrus for state and engine logging/SVM info",
+                                            "oid": "6ffa8bb21f69cf7def45ca9c333e25f8eb80bb84",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "a68e3525dd5bab8796cd827a5a76e6d6316ed4d6"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/6ffa8bb21f69cf7def45ca9c333e25f8eb80bb84"
+                                        }
+                                    ]
+                                },
+                                "oid": "a860298a5d2c582b4a45523fcfbc5042245f244f",
+                                "pushedDate": "2017-10-03T17:24:28Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "494",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "suppress test errors",
+                                            "oid": "b6db5de4c570696cf85b60092d66c6a8990704c2",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "3d59d1a001c332997fb5dd693ff5a76e51980e72"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-11-07T16:51:48Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/b6db5de4c570696cf85b60092d66c6a8990704c2"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "typo, update comments and defaults",
+                                            "oid": "3d59d1a001c332997fb5dd693ff5a76e51980e72",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "3289cc8ba6565d0a131b07cb909e1b90a18580f5"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-11-06T06:30:43Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/3d59d1a001c332997fb5dd693ff5a76e51980e72"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'refs/heads/SOF-186' into m2-friday",
+                                            "oid": "3289cc8ba6565d0a131b07cb909e1b90a18580f5",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "c7f3150cb815d3cb39eb62e5cbc61fffbdc29d21"
+                                                    },
+                                                    {
+                                                        "oid": "e68ff6d0eae6c9965ab2d2705ae3f22c4ee0147b"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-11-05T19:24:32Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/3289cc8ba6565d0a131b07cb909e1b90a18580f5"
+                                        },
+                                        {
+                                            "messageBody": "\u2026-186",
+                                            "messageHeadline": "Merge remote-tracking branch 'refs/remotes/origin/m2-friday' into SOF\u2026",
+                                            "oid": "e68ff6d0eae6c9965ab2d2705ae3f22c4ee0147b",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "0e0001fef80a279921d1d3db7e2cb20b6539716d"
+                                                    },
+                                                    {
+                                                        "oid": "c7f3150cb815d3cb39eb62e5cbc61fffbdc29d21"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/e68ff6d0eae6c9965ab2d2705ae3f22c4ee0147b"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "added pending entry and transaction api calls",
+                                            "oid": "0e0001fef80a279921d1d3db7e2cb20b6539716d",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "d4baecca08eca70a72288e8e4959b6c391fa520d"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/0e0001fef80a279921d1d3db7e2cb20b6539716d"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'SOF-176' into m2-friday",
+                                            "oid": "c7f3150cb815d3cb39eb62e5cbc61fffbdc29d21",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "19d441b82d0a0a1030a0068cf5578c7cd062f9a5"
+                                                    },
+                                                    {
+                                                        "oid": "452b4464bf0cffb4682610a2e7a82c77f54a6a63"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-11-04T17:20:28Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/c7f3150cb815d3cb39eb62e5cbc61fffbdc29d21"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "merge SOF-180 use new test key",
+                                            "oid": "19d441b82d0a0a1030a0068cf5578c7cd062f9a5",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "56df4244080e915ca8025171ed47859432fd8469"
+                                                    },
+                                                    {
+                                                        "oid": "ce1d7c147dc8259e4b840f99693f26abacfd0d1e"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-11-04T16:36:24Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/19d441b82d0a0a1030a0068cf5578c7cd062f9a5"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'ps-2' into m2-friday",
+                                            "oid": "56df4244080e915ca8025171ed47859432fd8469",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "be8c2a76ad187361fa462661d6bbb1ce4b3df494"
+                                                    },
+                                                    {
+                                                        "oid": "d3f82ca6668c2c2df5fa802de43a3b416c741031"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-11-04T15:16:59Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/56df4244080e915ca8025171ed47859432fd8469"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Tuned Missing Messages a bit",
+                                            "oid": "d3f82ca6668c2c2df5fa802de43a3b416c741031",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "bd74749c6d846f34b67db10d66a79451aa3be547"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/d3f82ca6668c2c2df5fa802de43a3b416c741031"
+                                        },
+                                        {
+                                            "messageBody": "This reverts commit 592a6b171b70f3041e4a89c8b9f5da4605e27516.",
+                                            "messageHeadline": "Revert \"use factom-cli2 instead if it is available\"",
+                                            "oid": "be8c2a76ad187361fa462661d6bbb1ce4b3df494",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "b9a6280fc8966c3b37fa2c818f7d902bea02031e"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-11-04T06:51:03Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/be8c2a76ad187361fa462661d6bbb1ce4b3df494"
+                                        }
+                                    ]
+                                },
+                                "oid": "b6db5de4c570696cf85b60092d66c6a8990704c2",
+                                "pushedDate": "2016-11-07T16:51:48Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "733",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "Release v6.0.1",
+                                            "messageHeadline": "Merge pull request #597 from FactomProject/FD-709_release_6.0.1",
+                                            "oid": "035968eaf15a6cb86748de876a9ce695c2e41228",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "1a4d70a536bc1738689272da91e9352f9561c9e1"
+                                                    },
+                                                    {
+                                                        "oid": "e9169787c82d88f7c2fdfedbd28acc8c4670957f"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-12T21:07:09Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/035968eaf15a6cb86748de876a9ce695c2e41228"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "change version to v6.0.1",
+                                            "oid": "e9169787c82d88f7c2fdfedbd28acc8c4670957f",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "d9e0838613b762aed3cfc5fb22f39ebae20c9652"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-12T21:03:10Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/e9169787c82d88f7c2fdfedbd28acc8c4670957f"
+                                        },
+                                        {
+                                            "messageBody": "\u2026e_range_merge\n\nFD-680 avoid tx out of time range merge",
+                                            "messageHeadline": "Merge pull request #595 from FactomProject/FD-680_Avoid_tx_out_of_tim\u2026",
+                                            "oid": "d9e0838613b762aed3cfc5fb22f39ebae20c9652",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "c6705340bad0cb8b483294b7a07100901ffe4495"
+                                                    },
+                                                    {
+                                                        "oid": "04710ecf3fcf6711f4a411abf138ce24703c527a"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-11T21:16:53Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/d9e0838613b762aed3cfc5fb22f39ebae20c9652"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "comment out loud logs",
+                                            "oid": "04710ecf3fcf6711f4a411abf138ce24703c527a",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "d62befe4c1cdb2f190f22c8d54c8acdd14e7dca1"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-11T21:10:59Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/04710ecf3fcf6711f4a411abf138ce24703c527a"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "undo changes to messageTrace.go",
+                                            "oid": "d62befe4c1cdb2f190f22c8d54c8acdd14e7dca1",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "3bcbaf9ba881ba7b8c58cda5f9641a6fc8ba0a29"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": null,
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/d62befe4c1cdb2f190f22c8d54c8acdd14e7dca1"
+                                        },
+                                        {
+                                            "messageBody": "\u2026range_merge",
+                                            "messageHeadline": "Merge branch 'FD-709_release_6.0.1' into FD-680_Avoid_tx_out_of_time_\u2026",
+                                            "oid": "3bcbaf9ba881ba7b8c58cda5f9641a6fc8ba0a29",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "7ed117901b01eb4250abb6d6d03a0227ecb9e0f6"
+                                                    },
+                                                    {
+                                                        "oid": "c6705340bad0cb8b483294b7a07100901ffe4495"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-11T00:20:53Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/3bcbaf9ba881ba7b8c58cda5f9641a6fc8ba0a29"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "update leaderheight/timestamp on new dbstates",
+                                            "oid": "7ed117901b01eb4250abb6d6d03a0227ecb9e0f6",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "229b358d3917386a384ef05198d2359809fe7439"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-10T14:58:25Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/7ed117901b01eb4250abb6d6d03a0227ecb9e0f6"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "debug in progress",
+                                            "oid": "229b358d3917386a384ef05198d2359809fe7439",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "84e341559b6acfeb3d0cf2644f83c0f7a3af9ec9"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-10T13:43:32Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/229b358d3917386a384ef05198d2359809fe7439"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Processing DBStates was not moving the leader timestamp",
+                                            "oid": "84e341559b6acfeb3d0cf2644f83c0f7a3af9ec9",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "49cfb5ac54c0c0d73e5f95ccce6f46aae39e7047"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-09T16:59:32Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/84e341559b6acfeb3d0cf2644f83c0f7a3af9ec9"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "fixed debug log",
+                                            "oid": "49cfb5ac54c0c0d73e5f95ccce6f46aae39e7047",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "616c054695ab36ef294577728b541c96910f00aa"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-09T16:47:08Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/49cfb5ac54c0c0d73e5f95ccce6f46aae39e7047"
+                                        }
+                                    ]
+                                },
+                                "oid": "035968eaf15a6cb86748de876a9ce695c2e41228",
+                                "pushedDate": "2018-10-12T21:07:09Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "AutoFER",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Temp patch so tht identity and FER code test well together.",
+                                            "oid": "d19f7ac5a62ed81a1515ce4b03f6e97d6e9cb1df",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "ac984cd294f9edba6a0af1cfe837d26d590cf073"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-20T22:52:50Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/d19f7ac5a62ed81a1515ce4b03f6e97d6e9cb1df"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "minor change to toggle state printing in the sim controller.",
+                                            "oid": "ac984cd294f9edba6a0af1cfe837d26d590cf073",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "983f8eaf9c7d17e940b3edb978018a8305210bff"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-17T22:46:15Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/ac984cd294f9edba6a0af1cfe837d26d590cf073"
+                                        },
+                                        {
+                                            "messageBody": "\u2026into AutoFER\n\nConflicts:\n\tstate/stateFER.go",
+                                            "messageHeadline": "Merge branch 'm2-friday' of https://github.com/FactomProject/factomd \u2026",
+                                            "oid": "983f8eaf9c7d17e940b3edb978018a8305210bff",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "57673411db1a073b5ba286dfcaa9ad368765a443"
+                                                    },
+                                                    {
+                                                        "oid": "03cb23beaf8f9547bb37dd8984a9cc54798eb142"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-17T18:22:02Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/983f8eaf9c7d17e940b3edb978018a8305210bff"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Spelling fix to the json of the FER chain reader.",
+                                            "oid": "03cb23beaf8f9547bb37dd8984a9cc54798eb142",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "8efee77480d2a9616b530604b822aff3c24ab6e7"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-17T18:20:40Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/03cb23beaf8f9547bb37dd8984a9cc54798eb142"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Fixed some receipt wsapi bugs",
+                                            "oid": "8efee77480d2a9616b530604b822aff3c24ab6e7",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "74813bcf5721583dec37732f907524266598bff6"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-16T23:51:21Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/8efee77480d2a9616b530604b822aff3c24ab6e7"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "go fmt comit",
+                                            "oid": "57673411db1a073b5ba286dfcaa9ad368765a443",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "196fc41ad26f1cf1e302e9930a6b75ffc7466cee"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-16T23:16:13Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/57673411db1a073b5ba286dfcaa9ad368765a443"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Fixed some unit tests.",
+                                            "oid": "74813bcf5721583dec37732f907524266598bff6",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "d90af1d2b06289944601549a0dfcfbe87ca39f62"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-16T23:12:24Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/74813bcf5721583dec37732f907524266598bff6"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Got the tests to recognise the FER Chain id and look through it.",
+                                            "oid": "196fc41ad26f1cf1e302e9930a6b75ffc7466cee",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "cf719442c78c5ad00e1ca757ada839d337f3b536"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-16T23:11:55Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/196fc41ad26f1cf1e302e9930a6b75ffc7466cee"
+                                        },
+                                        {
+                                            "messageBody": "# Conflicts:\n#\tstate/identity.go",
+                                            "messageHeadline": "Merge branch 'm2-friday' into m2-steven",
+                                            "oid": "d90af1d2b06289944601549a0dfcfbe87ca39f62",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "49df4e615d1046257ec292ac2e7005ca74d14631"
+                                                    },
+                                                    {
+                                                        "oid": "ecb16c05fc4f0bacd21a46fddaf1bc3e01150685"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-16T22:26:17Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/d90af1d2b06289944601549a0dfcfbe87ca39f62"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'm2-friday' into m2-steven: Added timestamp checking",
+                                            "oid": "49df4e615d1046257ec292ac2e7005ca74d14631",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "410cab81f3900d1e64e16f06a735c38bbb095984"
+                                                    },
+                                                    {
+                                                        "oid": "125b8732380f17aa40b43681e344ed7f8deb792f"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2016-06-16T22:22:09Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/49df4e615d1046257ec292ac2e7005ca74d14631"
+                                        }
+                                    ]
+                                },
+                                "oid": "d19f7ac5a62ed81a1515ce4b03f6e97d6e9cb1df",
+                                "pushedDate": "2016-06-20T22:52:50Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "BlockchainState",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Small fix",
+                                            "oid": "de5532b089053aa886155ce7eb5922a4a3780a94",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "c75e596e2e43537292d20d243553183fbf644116"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-30T13:00:24Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/de5532b089053aa886155ce7eb5922a4a3780a94"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'develop' into BlockchainState",
+                                            "oid": "c75e596e2e43537292d20d243553183fbf644116",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "9cb6290d84702c35ada6f58a0b43f95646adbd7b"
+                                                    },
+                                                    {
+                                                        "oid": "3574b0679632c1826efb26b142091a4c976532fb"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-30T09:46:20Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/c75e596e2e43537292d20d243553183fbf644116"
+                                        },
+                                        {
+                                            "messageBody": "Fd 317, 316, 315",
+                                            "messageHeadline": "Merge pull request #370 from FactomProject/FD-317",
+                                            "oid": "3574b0679632c1826efb26b142091a4c976532fb",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "f3e38e11db6320bc8a5b5d1a2502886831270cd9"
+                                                    },
+                                                    {
+                                                        "oid": "c9d771be191fe85eb9803e6a1274a3bbf25e3f88"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-28T00:14:02Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/3574b0679632c1826efb26b142091a4c976532fb"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Saved the second pass data",
+                                            "oid": "c9d771be191fe85eb9803e6a1274a3bbf25e3f88",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "36d7c2440a04058dcd412a9b1d4be1b6e116d00b"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-27T15:03:43Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/c9d771be191fe85eb9803e6a1274a3bbf25e3f88"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'FD-315' into FD-317",
+                                            "oid": "36d7c2440a04058dcd412a9b1d4be1b6e116d00b",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "dd71bc03bc8956e82a20cdaaa82df55d7d901db5"
+                                                    },
+                                                    {
+                                                        "oid": "50c35d0b154fbc0d7650ca990171bd8e1db1b0bd"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-27T13:12:49Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/36d7c2440a04058dcd412a9b1d4be1b6e116d00b"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Added interface to new DBOverlay functions",
+                                            "oid": "50c35d0b154fbc0d7650ca990171bd8e1db1b0bd",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "496ee58dc6751678e47135b3cb1f0f30c7b8693e"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-27T13:10:18Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/50c35d0b154fbc0d7650ca990171bd8e1db1b0bd"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'FD-316' into FD-317",
+                                            "oid": "dd71bc03bc8956e82a20cdaaa82df55d7d901db5",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "85e60e30983eeeea03c74558aa64fe5e9fb197c4"
+                                                    },
+                                                    {
+                                                        "oid": "73b28309ebdd331fc432c0b186e9021835d5dc1c"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-27T13:01:52Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/dd71bc03bc8956e82a20cdaaa82df55d7d901db5"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "0 is a valid height to start",
+                                            "oid": "73b28309ebdd331fc432c0b186e9021835d5dc1c",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "f1ebf567a616464a220fc9d271f8e08e4166d357"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-27T13:00:40Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/73b28309ebdd331fc432c0b186e9021835d5dc1c"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'FD-315' into FD-317",
+                                            "oid": "85e60e30983eeeea03c74558aa64fe5e9fb197c4",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "f1ebf567a616464a220fc9d271f8e08e4166d357"
+                                                    },
+                                                    {
+                                                        "oid": "496ee58dc6751678e47135b3cb1f0f30c7b8693e"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-27T10:11:31Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/85e60e30983eeeea03c74558aa64fe5e9fb197c4"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Fix a minor bug",
+                                            "oid": "f1ebf567a616464a220fc9d271f8e08e4166d357",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "50c7c550bb11884bd256fb1866b704ee03d06311"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2017-10-26T19:23:16Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/f1ebf567a616464a220fc9d271f8e08e4166d357"
+                                        }
+                                    ]
+                                },
+                                "oid": "de5532b089053aa886155ce7eb5922a4a3780a94",
+                                "pushedDate": "2017-10-30T13:00:24Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "CLA_michaelbeam",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'Contributor_License_Agreement' into CLA_michaelbeam",
+                                            "oid": "451b01c6b2330a2eb862ae304ab689aa22e27abb",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "13077a53a5d4a1172832e96f8e55399aac8e1fd8"
+                                                    },
+                                                    {
+                                                        "oid": "3ca6af0503e9c9a079f19dcdd27d1e7933214a42"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:07:20Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/451b01c6b2330a2eb862ae304ab689aa22e27abb"
+                                        },
+                                        {
+                                            "messageBody": "Added sambarnes to CLA.txt",
+                                            "messageHeadline": "Merge pull request #600 from FactomProject/CLA_sambarnes",
+                                            "oid": "3ca6af0503e9c9a079f19dcdd27d1e7933214a42",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "9755d68b41536f95e3902e38d574274df80f325a"
+                                                    },
+                                                    {
+                                                        "oid": "0d1a5178dd2e4a132f3e39136ea5ff3f2abe4e98"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:06:25Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/3ca6af0503e9c9a079f19dcdd27d1e7933214a42"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'Contributor_License_Agreement' into CLA_sambarnes",
+                                            "oid": "0d1a5178dd2e4a132f3e39136ea5ff3f2abe4e98",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "2a12a7a9035b0c701be374b7e9e497eb6dfb04c8"
+                                                    },
+                                                    {
+                                                        "oid": "9755d68b41536f95e3902e38d574274df80f325a"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:06:15Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/0d1a5178dd2e4a132f3e39136ea5ff3f2abe4e98"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Update CLA.txt",
+                                            "oid": "13077a53a5d4a1172832e96f8e55399aac8e1fd8",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "cdcaf75fd61c3103938293e58a9c005f801d290c"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:05:27Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/13077a53a5d4a1172832e96f8e55399aac8e1fd8"
+                                        },
+                                        {
+                                            "messageBody": "Add Matt York",
+                                            "messageHeadline": "Merge pull request #599 from FactomProject/CLA_myork",
+                                            "oid": "9755d68b41536f95e3902e38d574274df80f325a",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "cdcaf75fd61c3103938293e58a9c005f801d290c"
+                                                    },
+                                                    {
+                                                        "oid": "0148a7d1acc76e4571243c9c5c3af6ac55cf9495"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:05:21Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/9755d68b41536f95e3902e38d574274df80f325a"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'Contributor_License_Agreement' into CLA_myork",
+                                            "oid": "0148a7d1acc76e4571243c9c5c3af6ac55cf9495",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "b0aefcf3ab6513ce2b05e0653bb363382330c625"
+                                                    },
+                                                    {
+                                                        "oid": "cdcaf75fd61c3103938293e58a9c005f801d290c"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:05:07Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/0148a7d1acc76e4571243c9c5c3af6ac55cf9495"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "added \"additional info\" for Carl",
+                                            "oid": "cdcaf75fd61c3103938293e58a9c005f801d290c",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "70e08975b8be173d35b3d0f0c68e02655748a4c6"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-19T15:44:26Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/cdcaf75fd61c3103938293e58a9c005f801d290c"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "added Carl DiClementi",
+                                            "oid": "70e08975b8be173d35b3d0f0c68e02655748a4c6",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "599b4a327762ed7a1332f7677b10a4fdd8eff782"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-19T15:41:27Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/70e08975b8be173d35b3d0f0c68e02655748a4c6"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Added sambarnes to CLA.txt",
+                                            "oid": "2a12a7a9035b0c701be374b7e9e497eb6dfb04c8",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "599b4a327762ed7a1332f7677b10a4fdd8eff782"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-19T13:49:47Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/2a12a7a9035b0c701be374b7e9e497eb6dfb04c8"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Add Matt York",
+                                            "oid": "b0aefcf3ab6513ce2b05e0653bb363382330c625",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "599b4a327762ed7a1332f7677b10a4fdd8eff782"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-19T13:30:22Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/b0aefcf3ab6513ce2b05e0653bb363382330c625"
+                                        }
+                                    ]
+                                },
+                                "oid": "451b01c6b2330a2eb862ae304ab689aa22e27abb",
+                                "pushedDate": "2018-10-22T16:07:20Z"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "CLA_sambarnes",
+                            "target": {
+                                "history": {
+                                    "nodes": [
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'Contributor_License_Agreement' into CLA_sambarnes",
+                                            "oid": "0d1a5178dd2e4a132f3e39136ea5ff3f2abe4e98",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "2a12a7a9035b0c701be374b7e9e497eb6dfb04c8"
+                                                    },
+                                                    {
+                                                        "oid": "9755d68b41536f95e3902e38d574274df80f325a"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:06:15Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/0d1a5178dd2e4a132f3e39136ea5ff3f2abe4e98"
+                                        },
+                                        {
+                                            "messageBody": "Add Matt York",
+                                            "messageHeadline": "Merge pull request #599 from FactomProject/CLA_myork",
+                                            "oid": "9755d68b41536f95e3902e38d574274df80f325a",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "cdcaf75fd61c3103938293e58a9c005f801d290c"
+                                                    },
+                                                    {
+                                                        "oid": "0148a7d1acc76e4571243c9c5c3af6ac55cf9495"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:05:21Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/9755d68b41536f95e3902e38d574274df80f325a"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge branch 'Contributor_License_Agreement' into CLA_myork",
+                                            "oid": "0148a7d1acc76e4571243c9c5c3af6ac55cf9495",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "b0aefcf3ab6513ce2b05e0653bb363382330c625"
+                                                    },
+                                                    {
+                                                        "oid": "cdcaf75fd61c3103938293e58a9c005f801d290c"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-22T16:05:07Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/0148a7d1acc76e4571243c9c5c3af6ac55cf9495"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "added \"additional info\" for Carl",
+                                            "oid": "cdcaf75fd61c3103938293e58a9c005f801d290c",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "70e08975b8be173d35b3d0f0c68e02655748a4c6"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-19T15:44:26Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/cdcaf75fd61c3103938293e58a9c005f801d290c"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "added Carl DiClementi",
+                                            "oid": "70e08975b8be173d35b3d0f0c68e02655748a4c6",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "599b4a327762ed7a1332f7677b10a4fdd8eff782"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-19T15:41:27Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/70e08975b8be173d35b3d0f0c68e02655748a4c6"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Added sambarnes to CLA.txt",
+                                            "oid": "2a12a7a9035b0c701be374b7e9e497eb6dfb04c8",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "599b4a327762ed7a1332f7677b10a4fdd8eff782"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-19T13:49:47Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/2a12a7a9035b0c701be374b7e9e497eb6dfb04c8"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Add Matt York",
+                                            "oid": "b0aefcf3ab6513ce2b05e0653bb363382330c625",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "599b4a327762ed7a1332f7677b10a4fdd8eff782"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-19T13:30:22Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/b0aefcf3ab6513ce2b05e0653bb363382330c625"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "Merge PaulBernier into Contributor_License_Agreement",
+                                            "oid": "599b4a327762ed7a1332f7677b10a4fdd8eff782",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "035968eaf15a6cb86748de876a9ce695c2e41228"
+                                                    },
+                                                    {
+                                                        "oid": "6bc663dc6c343b8df2618adaed8593ee9f529acd"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-18T19:13:49Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/599b4a327762ed7a1332f7677b10a4fdd8eff782"
+                                        },
+                                        {
+                                            "messageBody": "Release v6.0.1",
+                                            "messageHeadline": "Merge pull request #597 from FactomProject/FD-709_release_6.0.1",
+                                            "oid": "035968eaf15a6cb86748de876a9ce695c2e41228",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "1a4d70a536bc1738689272da91e9352f9561c9e1"
+                                                    },
+                                                    {
+                                                        "oid": "e9169787c82d88f7c2fdfedbd28acc8c4670957f"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-12T21:07:09Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/035968eaf15a6cb86748de876a9ce695c2e41228"
+                                        },
+                                        {
+                                            "messageBody": "",
+                                            "messageHeadline": "change version to v6.0.1",
+                                            "oid": "e9169787c82d88f7c2fdfedbd28acc8c4670957f",
+                                            "parents": {
+                                                "nodes": [
+                                                    {
+                                                        "oid": "d9e0838613b762aed3cfc5fb22f39ebae20c9652"
+                                                    }
+                                                ]
+                                            },
+                                            "pushedDate": "2018-10-12T21:03:10Z",
+                                            "treeUrl": "https://github.com/FactomProject/factomd/tree/e9169787c82d88f7c2fdfedbd28acc8c4670957f"
+                                        }
+                                    ]
+                                },
+                                "oid": "0d1a5178dd2e4a132f3e39136ea5ff3f2abe4e98",
+                                "pushedDate": "2018-10-22T16:06:15Z"
+                            }
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "MTA",
+                    "hasNextPage": true,
+                    "startCursor": "MQ"
+                }
+            }
+        }
+    }
+}
