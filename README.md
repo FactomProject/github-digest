@@ -9,7 +9,7 @@ http://factomstatus.com/github-digest/?q=monthly&mm=12&yyyy=2018
 ```
 Here we specify Dec 2018.
 
-NOTE: that because of the way the data is pulled from github - this takes a while to load.
+NOTE: that because of the way the data is pulled from github - it can can take > 1 min for the javasript report to build.
 
 ## Development
 
